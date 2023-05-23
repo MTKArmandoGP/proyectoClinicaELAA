@@ -106,6 +106,21 @@
             android:ems="10"
             android:hint="Contraseña" />
 
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextContraseña"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/bkg_boton2"
+            android:backgroundTint="#C8064469"
+            android:elevation="100dp"
+            android:text="Registrar" />
+
     </RelativeLayout>
 
 
