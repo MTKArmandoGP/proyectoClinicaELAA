@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ClinicaELAA_Proyecto"
         tools:targetApi="31">
         <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
