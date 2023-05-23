@@ -3,45 +3,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registro_usuarios"
-    android:background="@drawable/bg_login">
+    tools:context=".registro_usuarios">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editTextUsuario"
-        android:layout_width="349dp"
-        android:layout_height="57dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="30dp"
-        android:background="@drawable/bordetext"
-        android:drawableRight="@drawable/baseline_person_24"
-        android:elevation="50dp"
-        android:ems="10"
-        android:hint="Nombre"
-        android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/editTextUsuario"
+            android:layout_width="349dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/bordetext"
+            android:drawableRight="@drawable/baseline_person_24"
+            android:elevation="50dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/editTextApellido"
-        android:layout_width="349dp"
-        android:layout_height="57dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="110dp"
-        android:layout_marginEnd="30dp"
-        android:background="@drawable/bordetext"
-        android:drawableRight="@drawable/baseline_person_24"
-        android:elevation="50dp"
-        android:ems="10"
-        android:hint="Apellido" />
+        <EditText
+            android:id="@+id/editTextApellido"
+            android:layout_width="349dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/bordetext"
+            android:drawableRight="@drawable/baseline_person_24"
+            android:elevation="50dp"
+            android:ems="10"
+            android:hint="Apellido" />
 
         <EditText
             android:id="@+id/editTextCorreo"

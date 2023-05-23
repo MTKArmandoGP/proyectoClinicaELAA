@@ -10,5 +10,7 @@ public class Registro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
+        getSupportFragmentManager().beginTransaction().setReorderingAllowed(true).replace(R.id.registro,registro_usuarios.class,null)
+                .commit();
     }
 }
